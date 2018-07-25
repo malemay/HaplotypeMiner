@@ -2,12 +2,13 @@ Package: HaplotypeMiner
 Type: Package
 Title: Gene-centered haplotyping from SNP data
 Version: 0.9000
-Date: 2017-05-15
+Date: 2018-07-25
 Authors@R: c(
-    person("Aurélie", "Tardivel", , "aurelie.tardivel.1@ulaval.ca", c("aut", "cre")),
-    person("Marc-André", "Lemay", , "marc-andre.lemay.2@ulaval.ca", c("aut")),
-    person("Louise", "O'Donoughue", , "louise.odonoughue@cerom.qc.ca", c("aut")),
-    person("François", "Belzile", , "francois.belzile@fsaa.ulaval.ca", c("aut"))
+    person("Aurélie", "Tardivel", , "aurelie.tardivel.1@ulaval.ca", "aut"),
+    person("Davoud", "Torkamaneh", , "davoud.torkamaneh@gmail.com", "aut"),
+    person("Marc-André", "Lemay", , "marc-andre.lemay.2@ulaval.ca", c("aut", "cre")),
+    person("François", "Belzile", , "francois.belzile@fsaa.ulaval.ca", "aut"),
+    person("Louise", "O'Donoughue", , "louise.odonoughue@cerom.qc.ca", "aut")
     )
 Imports: BiocGenerics,
     GenomeInfoDb,
