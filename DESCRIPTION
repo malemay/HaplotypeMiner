@@ -1,0 +1,30 @@
+Package: HaplotypeMiner
+Type: Package
+Title: Gene-centered haplotyping from SNP data
+Version: 0.9000
+Date: 2017-05-15
+Authors@R: c(
+    person("Aurélie", "Tardivel", , "aurelie.tardivel.1@ulaval.ca", c("aut", "cre")),
+    person("Marc-André", "Lemay", , "marc-andre.lemay.2@ulaval.ca", c("aut")),
+    person("Louise", "O'Donoughue", , "louise.odonoughue@cerom.qc.ca", c("aut")),
+    person("François", "Belzile", , "francois.belzile@fsaa.ulaval.ca", c("aut"))
+    )
+Imports: BiocGenerics,
+    GenomeInfoDb,
+    ggplot2,
+    LDcorSV,
+    Matrix,
+    methods,
+    reshape2,
+    snpStats,
+    stringr,
+    SummarizedExperiment,
+    VariantAnnotation
+Maintainer: Marc-André Lemay <marc-andre.lemay.2@ulaval.ca>
+Description: This package allows the selection of polymorphic markers useful in defining
+    haplotypes for genes from SNP data. Included are functions used to parse genotypic
+    data (VCF and hapmap files), basic tools for filtering SNP data, as well as high-level
+    data visualization tools.
+License: GPL-3 | file LICENSE
+LazyData: TRUE
+RoxygenNote: 6.0.1
