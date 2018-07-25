@@ -4,7 +4,7 @@
 \alias{read_kinship}
 \title{Title}
 \usage{
-read_kinship(kinship_file = NULL)
+read_kinship(kinship_file)
 }
 \arguments{
 \item{kinship_file}{To be completed}

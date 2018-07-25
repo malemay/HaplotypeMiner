@@ -8,8 +8,8 @@
 #' analysis, and various kinds of graphs
 #'
 #' More control over the files output by this function can be obtained by
-#' using the underlying functions : \code{\link{autohaplo_logfile}},
-#' \code{\link{autohaplo_graphs}}, \code{\link{write_hapmap}}
+#' using the underlying functions : \code{\link{haplo_logfile}},
+#' \code{\link{haplo_graphs}}, \code{\link{write_hapmap}}
 #'
 #' @param results A list generated as output from the function  \code{\link{haplo_selection}}
 #'   and thus containing the results of a haplotype analysis.
@@ -25,7 +25,7 @@
 #'   variant files. Must be either "vcf" or "hapmap". Other formats are not
 #'   supported and will result in an error.
 #' @param graphs A list describing which graphical elements should be output.
-#'   See \code{\link{autohaplo_graphs}} for more details.
+#'   See \code{\link{haplo_graphs}} for more details.
 #' @param logfile A character. The name of the file to which the logfile
 #'   should be written. Defaults to "Log.txt". If \code{NULL}, no logfile
 #'   is written.
@@ -37,7 +37,7 @@
 #' @examples
 #' NULL
 #'
-autohaplo_output <- function(results, output_dir = NULL,
+haplo_output <- function(results, output_dir = NULL,
                              logfile = "Log.txt",
                              variant_files = "default",
                              variant_format = results$Parameters$File_format,
@@ -62,7 +62,7 @@ autohaplo_output <- function(results, output_dir = NULL,
 
   # The logfile is written with name logfile unless logfile = NULL
   if(!is.null(logfile)) {
-    autohaplo_logfile(results = results, filename = logfile, to_file = TRUE)
+    haplo_logfile(results = results, filename = logfile, to_file = TRUE)
   }
 
   # If not NULL, variant files will be written to disk.
@@ -81,12 +81,12 @@ autohaplo_output <- function(results, output_dir = NULL,
       write_hapmap(results[[i]], paste0(i, ".hmp.txt"))
     } else {
       # An error is thrown if the format is neither vcf nor hapmap
-      stop(variant_format, " is not a valid variant format supported by package autohaplo.")
+      stop(variant_format, " is not a valid variant format supported by package HaplotypeMiner.")
     }
   }
 
- # Calling function autohaplo_graphs to write the graphs to files.
-  autohaplo_graphs(results, output_dir = ".", graphs = graphs)
+ # Calling function haplo_graphs to write the graphs to files.
+  haplo_graphs(results, output_dir = ".", graphs = graphs)
 
   return(invisible(NULL))
 }

@@ -4,11 +4,11 @@
 \alias{haplo_params}
 \title{Title}
 \usage{
-haplo_params(input_file, kinship_file = NULL, structure_file = NULL,
-  gene_db_file = NULL, chr_db_file = NULL, gene_name = NULL,
-  gene_chrom = NULL, gene_start = NULL, gene_end = NULL,
-  chr_length = NULL, file_format = NULL, R2_measure = "r2",
-  min_alt_threshold = NULL, max_het_threshold = 0,
+haplo_params(input_file = NULL, kinship_file = NULL,
+  structure_file = NULL, gene_db_file = NULL, chr_db_file = NULL,
+  gene_name = NULL, gene_chrom = NULL, gene_start = NULL,
+  gene_end = NULL, chr_length = NULL, file_format = NULL,
+  R2_measure = "r2", min_alt_threshold = NULL, max_het_threshold = 0,
   max_missing_threshold = 0, min_allele_count = 1,
   cluster_threshold = 0.95, cluster_R2 = R2_measure,
   marker_independence_threshold = 0.5, max_flanking_pair_distance = 3 *

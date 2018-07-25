@@ -1,4 +1,4 @@
-#' autohaplo: Automatized detection of haplotypes from SNP data
+#' HaplotypeMiner: Gene-centered haplotyping from SNP data
 #'
 #' This package allows the selection of polymorphic markers useful in defining
 #' haplotypes for genes from SNP data. Included are functions used to parse genotypic
@@ -6,7 +6,7 @@
 #' data visualization tools.
 #'
 #' @docType package
-#' @name autohaplo
+#' @name HaplotypeMiner
 NULL
 
 #' @importFrom utils read.table write.table

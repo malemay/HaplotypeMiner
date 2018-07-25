@@ -4,7 +4,7 @@
 \alias{compute_ld}
 \title{Linkage disequilibrium computation}
 \usage{
-compute_ld(snp_data, measure, kinship = NA, structure = NA)
+compute_ld(snp_data, measure, kinship = NULL, structure = NULL)
 }
 \arguments{
 \item{snp_data}{A list of SNP data comprising at least an element called

@@ -17,7 +17,7 @@
 #' This function calls high-level plotting functions defined in the package itself :
 #' \code{\link{density_plot}}, \code{\link{ld_plot}}, \code{\link{distance_plot}},
 #' \code{\link{genotype_plot}}. These functions are called in the context of
-#' \code{autohaplo_graphs} with their default values, but finer control could be
+#' \code{haplo_graphs} with their default values, but finer control could be
 #' obtained by using these functions directly.
 #'
 #' Arguments can be passed to function \code{ggplot::ggsave}, which directs the
@@ -46,7 +46,7 @@
 #' @examples
 #' NULL
 #'
-autohaplo_graphs <- function(results, output_dir = ".", graphs = "default", ...) {
+haplo_graphs <- function(results, output_dir = ".", graphs = "default", ...) {
 
   # Creating a directory with a name that already exists is not supported.
   #  Writing the results in the current directory is allowed.

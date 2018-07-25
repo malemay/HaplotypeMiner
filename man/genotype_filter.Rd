@@ -77,7 +77,7 @@ A list containing 3 or 4 elements depending on the \code{snp_data}
 This function applies different filters on SNP data so as to generate as
 set of markers suitable for haplotype analysis. Although the function can
 be called separately for filtering purposes, it was thought and designed
-specifically for the needs of package \code{autohaplo} and might not suit
+specifically for the needs of package \code{HaplotypeMiner} and might not suit
 the needs of the general. See section \code{Details} for a discussion of
 the different mandatory and optional filters applied by this function.
 }
@@ -98,12 +98,12 @@ a call to \code{\link{haplo_selection}}. The three filters are :
   default value could be used).}
 \item{multiallelism} {Markers that are not biallelic (i.e. either triallelic
   or tetraallelic) are automatically removed from the dataset as package
-  \code{autohaplo} does not know how to handle these markers yet.}
+  \code{HaplotypeMiner} does not know how to handle these markers yet.}
 }
 
 Other filters are optional and are not applied by default, although is is
 recommended that users do apply these filters either prior to the analysis,
-externally to package \code{autohaplo}, or as part of the analysis pipeline
+externally to package \code{HaplotypeMiner}, or as part of the analysis pipeline
 implemented by function \code{\link{haplo_selection}}. These four filters
 are :
 

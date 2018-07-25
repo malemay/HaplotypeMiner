@@ -4,7 +4,7 @@
 \alias{read_structure}
 \title{Title}
 \usage{
-read_structure(structure_file = NULL)
+read_structure(structure_file)
 }
 \arguments{
 \item{structure_file}{To be completed}

@@ -17,7 +17,7 @@ An object of class \code{expression} which can be used to generate
   pretty labels for graphs.
 }
 \description{
-This function is used internally by package \code{autohaplo} to generate
+This function is used internally by package \code{HaplotypeMiner} to generate
 pretty labels for graphs.
 }
 \examples{

@@ -1,6 +1,6 @@
 #' Convert r^2 measure into a printable expression
 #'
-#' This function is used internally by package \code{autohaplo} to generate
+#' This function is used internally by package \code{HaplotypeMiner} to generate
 #' pretty labels for graphs.
 #'
 #' @param r2_measure A character of length one. The R-squared measure used

@@ -37,14 +37,14 @@
 #' @examples
 #' NULL
 #'
-autohaplo_logfile <- function(results, filename = "Log.txt", to_file = TRUE) {
+haplo_logfile <- function(results, filename = "Log.txt", to_file = TRUE) {
 
   # INPUT CHECKING
   # Checking that all input list elements are standard
   if(!all(names(results) %in% c("Parameters", "Kinship", "Structure", "All_markers",
                                 "Filtered_markers", "Clustered_markers", "Selected_clusters",
                                 "Selected_markers", "Haplotypes"))) {
-    stop("The results object is not suitable as input to autohaplo_logfile.")
+    stop("The results object is not suitable as input to haplo_logfile.")
   }
 
   # Redirect output to the logfile
