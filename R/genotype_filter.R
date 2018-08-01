@@ -103,6 +103,7 @@
 #'       object, this element is a subset of it containing only the markers
 #'       remaining following filtering.}
 #'   }
+#'
 #' @export
 #'
 #' @examples

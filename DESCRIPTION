@@ -21,11 +21,19 @@ Imports: BiocGenerics,
     stringr,
     SummarizedExperiment,
     VariantAnnotation
+Depends: R(>= 3.5.0)
 Maintainer: Marc-André Lemay <marc-andre.lemay.2@ulaval.ca>
 Description: This package allows the selection of polymorphic markers useful in defining
-    haplotypes for genes from SNP data. Included are functions used to parse genotypic
+    haplotypes of genes from SNP data. Included are functions used to parse genotypic
     data (VCF and hapmap files), basic tools for filtering SNP data, as well as high-level
     data visualization tools.
 License: GPL-3 | file LICENSE
 LazyData: TRUE
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+URL: http://github.com/malemay/HaplotypeMiner
+BugReports: http://github.com/malemay/HaplotypeMiner/issues
+

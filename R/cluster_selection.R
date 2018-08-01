@@ -28,6 +28,7 @@
 #' @return A list similar to that provided as input, but with a subset of markers
 #'   that passed the filters.
 #'
+#' @export
 #' @examples
 #' NULL
 #'

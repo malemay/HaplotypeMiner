@@ -10,6 +10,7 @@
 #'
 #' @return To be completed
 #'
+#' @export
 #' @examples
 #' NULL
 #'
