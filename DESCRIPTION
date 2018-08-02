@@ -1,7 +1,7 @@
 Package: HaplotypeMiner
 Type: Package
 Title: Gene-centered haplotyping from SNP data
-Version: 0.9000
+Version: 0.1.0
 Date: 2018-07-25
 Authors@R: c(
     person("Aurélie", "Tardivel", , "aurelie.tardivel.1@ulaval.ca", "aut"),

@@ -220,4 +220,4 @@ The genotypes of the individuals for sets of markers generated throughout the an
 
 Song Q, DL Hyten, G Jia, CV Quigley, EW Fickus, RL Nelson, and PB Cregan. 2013. Development and evaluation of SoySNP50K, a high-density genotyping array for soybean. *PloS One* 8:e54985.
 
-Torkamaneh D, Laroche J, Tardivel A, O'Donoughue L, Cober E, Rajcan I, and Belzile F. 2018. Comprehensive description of genomewide nucleotide and structural variation in short-season soya bean. *Plant Biotechnology Journal* 16:749-759.
+Torkamaneh D, J Laroche, A Tardivel, L O'Donoughue, E Cober, I Rajcan, and F Belzile. 2018. Comprehensive description of genomewide nucleotide and structural variation in short-season soya bean. *Plant Biotechnology Journal* 16:749-759.
