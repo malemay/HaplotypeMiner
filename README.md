@@ -42,7 +42,9 @@ The vignette describing the approach used by *HaplotypeMiner* as well as a detai
 
 ## Notes
 
-If you use *HaplotypeMiner* as part of your work, please cite it as numerous hours have been invested in its development. A manuscript describing the underlying model of *HaplotypeMiner* and results obtained with soybean will be submitted for publication as a research paper shortly. Until then, the recommended citation for the package can be obtained by running the command `citation("HaplotypeMiner")` in `R`.
+If you use *HaplotypeMiner* as part of your work, please cite the following paper:
+
+Tardivel, A., Torkamaneh, D., Lemay, M.-A., Belzile, F. and O'Donoughue, L.S. (2019), A Systematic Gene-Centric Approach to Define Haplotypes and Identify Alleles on the Basis of Dense Single Nucleotide Polymorphism Datasets. The Plant Genome, 12: 180061. [doi:10.3835/plantgenome2018.08.0061](https://doi.org/10.3835/plantgenome2018.08.0061)
 
 This software is provided without any guarantee. *HaplotypeMiner* has only been thoroughly tested with soybean. We do not know to what extent the model will hold for polyploid species, mainly outcrossing species, or species in which linkage disequilibrium decays more rapidly with physical distance than in soybean. If you test *HaplotypeMiner* with a different species, we would be happy to know about the results and provide some advice if requested.
 
